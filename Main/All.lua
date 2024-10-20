@@ -105,7 +105,7 @@ elseif B_426 == 17534163435 or string.find(B_425,"Dungeon RNG") then --Dungeon R
 elseif B_426 == 16055525893 or string.find(B_425,"RNG Odyssey") then --RNG Odyssey
     B_427(B_107:HttpGet("https://raw.githubusercontent.com/"..B_428.."/BONKHUB/main/"..B_430.."/RNGOdyssey"..B_431))()
 elseif B_426 == 16732694052 or string.find(B_425,"Fisch") then --Fisch
-    B_427(B_107:HttpGet("https://raw.githubusercontent.com/"..B_428.."/BONKHUB/main/"..B_430.."/Fisch"..B_431))()
+    B_427(B_107:HttpGet("https://raw.githubusercontent.com/Toon555wow/BONKHUB/refs/heads/main/Script/Fisch.lua"))()
 elseif B_426 == 914010731 or string.find(B_425,"Ro-Ghoul") then --Roghoul
     B_427(B_107:HttpGet("https://raw.githubusercontent.com/"..B_428.."/BONKHUB/main/"..B_430.."/Roghoul"..B_431))()
 else
