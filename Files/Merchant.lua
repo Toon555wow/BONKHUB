@@ -26,7 +26,7 @@ spawn(function()
     pcall(function()
         if workspace.active:FindFirstChild("Merchant Boat") then
             local webhook1 = request({
-                Url = "https://discord.com/api/webhooks/1296444086957641778/HVjQ-XYo1XRFGKiX2-hF5j_hn3i0t1w7ZwMseB6d6fBAPINoWOxL_HF0n3EWmN-B03bU",
+                Url = "https://discord.com/api/webhooks/1297649137503699035/xJX43_TJYyihnwR_XlvMRBjmsauWLg_S_bmMDwe_4EK91wqDVvHu8U71ptxDkcipTZyE",
                 Method = "POST",
                 Headers = {
                     ["content-type"] = "application/json"
