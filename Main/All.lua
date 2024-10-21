@@ -23,6 +23,7 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
         wait(1)
         game:GetService("VirtualUser"):Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
     end)
+--[[
 local functions = {
     rconsoleprint,
     print,
@@ -68,7 +69,7 @@ setmetatable(
         end
     }
 )
-
+]]
 B_107 = game
 B_426 = B_107.PlaceId
 B_423 = "place"
