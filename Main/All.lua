@@ -104,10 +104,10 @@ elseif B_426 == 17534163435 or string.find(B_425,"Dungeon RNG") then --Dungeon R
 elseif B_426 == 16055525893 or string.find(B_425,"RNG Odyssey") then --RNG Odyssey
     B_427(B_107:HttpGet(rawgithub..B_428.."/BONKHUB/refs/heads/main/"..B_430.."/RNGOdyssey"..B_431))()
 elseif B_426 == 16732694052 or string.find(B_425,"Fisch") then --Fisch
-    if _G.NewGen then
-        B_427(B_107:HttpGet(rawgithub..B_428.."/BONKHUB/refs/heads/main/"..B_430.."/FischNewGen"..B_431))()
-    else
+    if _G.OldGen then
         B_427(B_107:HttpGet(rawgithub..B_428.."/BONKHUB/refs/heads/main/"..B_430.."/Fisch"..B_431))()
+    else
+        B_427(B_107:HttpGet(rawgithub..B_428.."/BONKHUB/refs/heads/main/"..B_430.."/FischNewGen"..B_431))()
     end
 elseif B_426 == 914010731 or string.find(B_425,"Ro-Ghoul") then --Roghoul
     B_427(B_107:HttpGet(rawgithub..B_428.."/BONKHUB/refs/heads/main/"..B_430.."/Roghoul"..B_431))()
