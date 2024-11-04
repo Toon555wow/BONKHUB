@@ -25,11 +25,13 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
         game:GetService("VirtualUser"):Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
     end)
 B_107 = game
+x=true
 B_426 = B_107.PlaceId
 B_423 = "place"
 B_444 = "Market"..B_423.."Service"
 local B_424 = B_107:GetService(B_444):GetProductInfo(B_426);
 local B_425 = B_424.Name
+_G.Xxllss=x
 B_101 = "Function"
 B_103 = "Bindable"..B_101
 local B_100 = Instance.new(B_103)
