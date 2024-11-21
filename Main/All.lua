@@ -1,10 +1,13 @@
 function DestroyKey()
     local keySystem = game.CoreGui:FindFirstChild("KeySystem")
+    local KeySystemPremuim = game:GetService("CoreGui"):FindFirstChild("BONKBONK")
+
     if keySystem then
         keySystem:Destroy()
         print("KeySystem Destroyed")
-    else
-        print("KeySystem Not Found")
+    elseif KeySystemPremium then
+        KeySystemPremium:Destroy()
+        print("KeySystem Destroyed")
     end
 end
 DestroyKey()
