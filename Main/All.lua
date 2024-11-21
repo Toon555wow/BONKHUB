@@ -1,6 +1,6 @@
 function DestroyKey()
     local keySystem = game.CoreGui:FindFirstChild("KeySystem")
-    local KeySystemPremuim = game:GetService("CoreGui"):FindFirstChild("BONKBONK")
+    local KeySystemPremium = game:GetService("CoreGui"):FindFirstChild("BONKBONK")
 
     if keySystem then
         keySystem:Destroy()
