@@ -5,6 +5,9 @@ function DestroyKey()
     if keySystem then
         keySystem:Destroy()
         print("KeySystem Destroyed")
+        if game:GetService("Lighting"):FindFirstChild("Blur") then
+            game:GetService("Lighting").Blur:Destroy()
+        end
     elseif KeySystemPremium then
         KeySystemPremium:Destroy()
         print("KeySystem Destroyed")
