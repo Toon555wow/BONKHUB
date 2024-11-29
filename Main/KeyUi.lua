@@ -1,4 +1,4 @@
-local function createGUI()
+local createUi = {}
     local ScreenGui = Instance.new("ScreenGui")
     local MainFrame = Instance.new("Frame")
     local UICorner_Main = Instance.new("UICorner")
@@ -170,12 +170,5 @@ local function createGUI()
     MainFrame:TweenPosition(UDim2.new(0.5, -225, 0.5, -125), "Out", "Quad", 0.5, true)
     spawn(updateTime)
 
-    return {
-        ScreenGui = ScreenGui,
-        MainFrame = MainFrame,
-        SubmitButton = SubmitButton,
-        GetKeyButton = GetKeyButton,
-    }
-end
 
-return createGUI
+return createUi
